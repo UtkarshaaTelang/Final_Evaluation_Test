@@ -1,0 +1,83 @@
+/* Footer Container */
+.footer {
+    display: flex;
+    justify-content: space-between; /* Space between lists */
+    align-items: flex-start;
+    padding: 40px 80px;
+    color: #ffffffeb; /* Light text color */
+  }
+  
+  /* Footer List Styles */
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between list items */
+  }
+  
+  /* First List: Logo and Text */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and text */
+  }
+  
+  .footer-logo img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-logo span {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+  }
+  
+  .footer-note {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #c0bcbceb;
+  }
+  
+  .footer-note a {
+    font-weight: 400;
+    color: #c0bcbceb;
+  }
+  
+  /* First Element of Each List */
+  .footer-heading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+  }
+  
+  /* Remaining Elements */
+  .footer-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    cursor: pointer;
+    color: #c0bcbceb;
+    display: inline-flex; /* Makes text and icon align horizontally */
+    align-items: center;  /* Vertically centers text and icon */
+    gap: 5px;
+  }
+
+  /* Remove underline for links that don't need it */
+  .footer-item a {
+    text-decoration: none;
+    color: #ffffffeb;
+  }
+  
+  /* Hover Effect for Links */
+  .footer-item a:hover {
+    text-decoration: underline;
+  }
+  

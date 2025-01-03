@@ -1,0 +1,218 @@
+/* Navbar Container */
+/* nav {
+    width: 100%;
+    max-width: 1440px;
+    height: 72px;
+    padding: 16px 32px 16px 32px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+  }
+
+
+  
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .nav-logo img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .nav-logo span {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #ffffff;
+  }
+  
+  
+  .nav-buttons {
+    display: flex;
+    gap: 12px; 
+    margin-left: auto;
+  }
+  
+  
+  .sign-in-btn {
+    padding: 10px 17px;
+    border-radius: 6px;
+    border: 1px solid #7ea6ff;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffffff;
+    color: #1a5fff;
+    cursor: pointer;
+  }
+  
+  
+  .create-btn {
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #1a5fff;
+    color: #ffffff;
+    box-shadow: 0px 1px 0px 0px #ffffff33 inset;
+    cursor: pointer;
+    border: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav {
+      padding: 10px 20px;
+    }
+  
+    .sign-in-btn,
+    .create-btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  } */
+
+  /* nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    max-width: 1440px;
+    height: 72px;
+    padding: 0 80px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .nav-logo img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .nav-logo span {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  
+  .nav-buttons {
+    display: flex;
+    gap: 12px; 
+  }
+  
+  
+  .sign-in-btn {
+    padding: 10px 17px;
+    border-radius: 6px;
+    border: 1px solid #7ea6ff;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffffff;
+    color: #1a5fff;
+    cursor: pointer;
+  }
+  
+  
+  .create-btn {
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #1a5fff;
+    color: #ffffff;
+    box-shadow: 0px 1px 0px 0px #ffffff33 inset;
+    cursor: pointer;
+    border: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    nav {
+      padding: 10px 20px; 
+    }
+  
+    .sign-in-btn,
+    .create-btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  } */
+
+
+/* Navbar Container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 72px;
+    box-sizing: border-box;
+    padding: 0 80px;
+  }
+  
+  /* Left Section: Logo and Title */
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  /* App Name Text */
+  .nav-left span {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #ffffff;
+  }
+  
+  /* Right Section: Buttons */
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+  }
+  
+  /* Sign In Button */
+  .sign-in-btn {
+    padding: 10px 17px;
+    border-radius: 6px;
+    border: 1px solid #7ea6ff;
+    color: #7ea6ff;
+    background-color: #171923;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  /* Create FormBot Button */
+  .create-btn {
+    padding: 10px 16px;
+    border-radius: 6px;
+    background-color: #1a5fff;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 1px 0px 0px #FFFFFF33 inset;
+
+  }
+  
+  
+  

@@ -1,0 +1,53 @@
+.registration-container *{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+
+}
+
+.registration-container {
+    background-color: #18181B;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* .backbutton img {
+    position: absolute;
+    top: 50px;
+    left: 66px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.svg-5 {
+    position: absolute;
+    width: 283.27px;
+    height: 273.61px;
+    top: 180px;
+    left: 44px;
+}
+
+
+.svg-6 {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    top: 100px;
+    right: 0px;
+    
+}
+
+.svg-7 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    bottom: 0px;
+    left: 850px;
+} */
+
